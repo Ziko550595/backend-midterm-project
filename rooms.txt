@@ -1,0 +1,30 @@
+GET ALL
+url/api/main
+
+GET BY ID
+url/api/main/{id}
+
+POST
+url/api/main/create
+in body 
+{
+     "roomName": "IT Lab",
+    
+     "roomNumber": 203,
+    
+     "seatNumber": 120,
+}
+
+PUT
+url/api/main/update/{id}
+in body
+{
+     "roomName": "History Room",
+    
+     "roomNumber": 203,
+    
+     "seatNumber": 120,
+}
+
+DELETE
+url/api/main/delete/{id}
